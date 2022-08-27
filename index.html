@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My kicks</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="hero-img"></div>
+    <div class="wrapper">
+        <header>
+            <a href="#" class="logo">My<span>Kicks</span></a>
+            
+            <nav>
+
+                <svg class="close" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88"><defs><style>.cls-1{fill:#444;fill-rule:evenodd;}</style></defs><title>close</title><path class="cls-1" d="M61.44,0A61.44,61.44,0,1,1,0,61.44,61.44,61.44,0,0,1,61.44,0ZM74.58,36.8c1.74-1.77,2.83-3.18,5-1l7,7.13c2.29,2.26,2.17,3.58,0,5.69L73.33,61.83,86.08,74.58c1.77,1.74,3.18,2.83,1,5l-7.13,7c-2.26,2.29-3.58,2.17-5.68,0L61.44,73.72,48.63,86.53c-2.1,2.15-3.42,2.27-5.68,0l-7.13-7c-2.2-2.15-.79-3.24,1-5l12.73-12.7L36.35,48.64c-2.15-2.11-2.27-3.43,0-5.69l7-7.13c2.15-2.2,3.24-.79,5,1L61.44,49.94,74.58,36.8Z"/></svg>
+            
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sneakers</a></li>
+                    <li><a href="#">Players</a></li>
+                </ul>
+            </nav>
+
+            <svg class="menu" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.879px" height="20.609px" viewBox="0 0 122.879 103.609" enable-background="new 0 0 122.879 103.609" xml:space="preserve"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M10.368,0h102.144c5.703,0,10.367,4.665,10.367,10.367v0 c0,5.702-4.664,10.368-10.367,10.368H10.368C4.666,20.735,0,16.07,0,10.368v0C0,4.665,4.666,0,10.368,0L10.368,0z M10.368,82.875 h102.144c5.703,0,10.367,4.665,10.367,10.367l0,0c0,5.702-4.664,10.367-10.367,10.367H10.368C4.666,103.609,0,98.944,0,93.242l0,0 C0,87.54,4.666,82.875,10.368,82.875L10.368,82.875z M10.368,41.438h102.144c5.703,0,10.367,4.665,10.367,10.367l0,0 c0,5.702-4.664,10.368-10.367,10.368H10.368C4.666,62.173,0,57.507,0,51.805l0,0C0,46.103,4.666,41.438,10.368,41.438 L10.368,41.438z"/></g></svg>
+        </header>
+
+        <section class="hero">
+            <h1>Regain Your Confidence On The Court</h1>
+
+            <p class="subhead">A shoe built with purpose to take your game to the next level</p>
+
+            <svg class="down-arrow"></svg>
+        </section>
+
+        <section class="more-info">
+            <div class="feature">
+                <div class="content">
+                    <p class="title">Lightweight</p>
+                    <p class="desc">Upper mesh material provides proper ventilation and reduction in the weight of the shoes.</p>
+                </div>
+                <img src="./images/shoes 5(1).jpg" alt="Another shoe">
+            </div>
+            <div class="feature left">
+                <div class="content">
+                    <p class="title">Flexibility</p>
+                    <p class="desc">Soft, flexible soles will allow the walker to push off easily with each step.</p>
+                </div>
+                <img src="./images/shoes3(1).jpg" alt="Another shoe">
+            </div>
+            <div class="feature">
+                <div class="content">
+                    <p class="title">Durability</p>
+                    <p class="desc">Lightweight, woven material is durable which provides structure and support.</p>
+                </div>
+                <img src="/images/shoes4.jpg" alt="Another shoe">
+            </div>
+        </section>
+    </div>
+
+    <script>
+                 const menu = document.querySelector('.menu')
+         const close = document.querySelector('.close')
+         const nav = document.querySelector('nav')
+
+         menu.addEventListener('click', () => {
+             nav.classList.add('open-nav') 
+         })
+
+         close.addEventListener('click', () => {
+             nav.classList.remove('open-nav') 
+})
+    </script>
+
+</body>
+</html>
